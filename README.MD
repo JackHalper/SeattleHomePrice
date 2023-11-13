@@ -117,7 +117,20 @@ Random Forest Regressor Residuals vs. Actual Values:
 
 
 ###### Model #3: XGBoost Regressor (Hyperparameters Tuned) (BEST MODEL)
-- The 3rd model was produced through an exhaustive cross-validation gridsearch. The Hyperparameters tuned include: Sample of Features per Tree, Learning Rate, Max Depth, Minimum Child Weight, Number of Estimators, Proportion of Samples per estimator. The best model from the CV search utilized the following final hyperparameters: .8 Proportion of Samples of Features Per Tree, Max Depth of 10, Minimum Child Weight of 4, and 500 total estimators in the ensemble model, .6 Proportion of samples of Features Per Tree. This ensemble model acheived an R2 of approximately .88. The Mean Absolute Error acheived was approximately 111k$. The Mean Absolute Percentage Error for this model is approximately 11.64%.
+- The 3rd model was produced through an exhaustive cross-validation gridsearch. 
+- Final Hyperparameters:
+  - .8 Proportion of Samples of Features Per Tree 
+  - Max Depth of 10, Minimum Child Weight of 4 
+  - 500 total estimators in the ensemble model
+  - .6 Proportion of samples of Features Per Tree. 
+
+-This ensemble model acheived an R2 of approximately .88. 
+
+- The Mean Absolute Error acheived was approximately 111k$. 
+
+- The Mean Absolute Percentage Error for this model is approximately 11.64%. 
+
+- The Median Absolute Percentage Error for this Model is Approximately 7.02%
 
 
 XBBoost Regressor Predicted vs. Actual Values:
