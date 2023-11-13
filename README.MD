@@ -135,6 +135,13 @@ Performance Metrics
 - The Median Absolute Percentage Error for this Model is Approximately 7.02%
 
 
+Top 20 Feature Importances 
+
+![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png)
+
+ Honestly, not much can be deduced from this. Will attempt all grid searches and models on Bigrams tonight to see if changes model performance/interpretability.
+
+
 XBBoost Regressor Predicted vs. Actual Values:
 
 ![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png)
@@ -145,4 +152,9 @@ XBBoost Regressor Residuals vs. Actual Values:
 
 
 
+## Best Model - Comparison to Industry Benchmark
+
+Zestimate (Seattle Metro) Median Absolute Error Percentage: 2.11%
+
+Best Model Median Absolute Error Percentage: 7.02% 
 
