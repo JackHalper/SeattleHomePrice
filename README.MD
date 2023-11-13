@@ -1,5 +1,5 @@
 
-![Seattle Skyline](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Seattke%20Skyline.jpg)
+![Seattle Skyline](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Seattle%20Skyline%20Final.jpg)
 
 
 ## Redfin Real Estate Price Regressor for The City of Seattle
