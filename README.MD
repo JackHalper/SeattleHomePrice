@@ -120,7 +120,8 @@ Random Forest Regressor Residuals vs. Actual Values:
 - The 3rd model was produced through an exhaustive cross-validation gridsearch. 
 - Final Hyperparameters:
   - .8 Proportion of Samples of Features Per Tree 
-  - Max Depth of 10, Minimum Child Weight of 4 
+  - Max Depth of 10 
+  - Minimum Child Weight of 4 
   - 500 total estimators in the ensemble model
   - .6 Proportion of samples of Features Per Tree. 
 
