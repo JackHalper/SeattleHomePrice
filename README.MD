@@ -24,6 +24,23 @@ Price Boxplot Distribution by Property Type:
 
 ![Price Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Price%20by%20Property%20Type.png)
 
+Square Footage: 
+
+- Square Footages in the Dataset range from 268SF - 11,573 SF
+- The Mean Home Square Footage in the Set is 1,729 SF
+- The Median Home Square Footage in the Set is 1,568 SF
+- The Dataset is skewed to the right
+
+Square Footage Histogram: 
+
+![SqFt. Histogram](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Distribution%20of%20Square%20Footages.png)
+
+Square Footage Boxplot Distribution by Property Type: 
+
+![SqFt. Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Square%20Footage%20by%20Property%20Type.png)
+
+
+
 
 
 
