@@ -8,7 +8,7 @@ This project aims to empower small-time value-add real estate investors in the c
 1. It aims to provide an accurate appraisal model for homes based on there redfin listing information. 
 2. It aims to provide information about what specific features cause some homes to sell for more so investors can have data-driven information through which to make value-add investment decisions.
 
-#### The Competition and
+#### The Competition
 [The Zestimate](https://www.zillow.com/z/zestimate/#/) by Zillow considers the following per FAQ's on the [Zillow Website](https://www.zillow.com/#/): 
 
 "Home characteristics including square footage, location or the number of bathrooms.
