@@ -9,7 +9,21 @@ The Data was manually collected on November 31st, 2023 from the Redfin Website. 
 #### Initial Findings
 Disclaimer: the following section includes data only on properties qualifying for analysis and excludes some property types and descriptionless listings
 
-PlaceHolder
+Price: 
+
+- Prices in the Dataset range from 202,500 - 11,620,000. 
+- The Mean Home Price in the Set is 958K
+- The Median Home Price in the Set is 820K
+- The Dataset is skewed to the right
+
+Price Histogram: 
+
+![Price Histogram] (https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Distribution%20of%20Home%20Prices.png)
+
+Price Boxplot Distribution by Property Type: 
+
+![Price Boxplot] (https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Price%20by%20Property%20Type.png)
+
 
 
 
