@@ -30,7 +30,7 @@ Mean Absolute Error & Mean Absolute Error Percentage
 ###### Model #1: Decision Tree (No Hyperparameter Tuning) 
 - The 1st model was a simple decision tree with no hyperparameter tuning just to provide a baseline model on which to evaluate future models.
 This simple model acheived an R2 of approximately .65. The Mean Absolute Error acheived was approximately 183k$. The Mean Absolute Percentage Error is approximately 18.5%. 
-![Decision Tree Regressor Predicted vs. Actual Values]https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20DTC.png
+![Decision Tree Regressor Predicted vs. Actual Values] https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20DTC.png
 
 ###### Model #2: Random Forest (Hyperparameters Tuned)
 - The 2nd model was produced through an exhaustive cross-validation gridsearch. The Hyperparameters tuned include: Number of Estimators, Max Tree Depth, Minimum Sample Split, Minimum Samples Per Leaf. The best model from the CV search utilized the following final hyperparameters: No Max Depth, Minimum Sample Split of 2, Minimum Sample Per Leaf of 1, and 500 total trees in the ensemble model. This ensemble model acheived an R2 of approximately .82. The Mean Absolute Error acheived was approximately 137k$. The Mean Absolute Percentage Error is approximately 14.35%.
