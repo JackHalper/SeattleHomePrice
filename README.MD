@@ -11,9 +11,9 @@ Disclaimer: the following section includes data only on properties qualifying fo
 
 Price: 
 
-- Prices in the Dataset range from 202,500 - 11,620,000. 
-- The Mean Home Price in the Set is 958K
-- The Median Home Price in the Set is 820K
+- Prices in the Dataset range from $202,500 - $11,620,000. 
+- The Mean Home Price in the Set is $958K
+- The Median Home Price in the Set is $820K
 - The Dataset is skewed to the right
 
 Price Histogram: 
