@@ -125,7 +125,8 @@ Random Forest Regressor Residuals vs. Actual Values:
   - 500 total estimators in the ensemble model
   - .6 Proportion of samples of Features Per Tree. 
 
--This ensemble model acheived an R2 of approximately .88. 
+Performance Metrics 
+- This ensemble model acheived an R2 of approximately .88. 
 
 - The Mean Absolute Error acheived was approximately 111k$. 
 
