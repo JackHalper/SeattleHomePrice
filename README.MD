@@ -18,11 +18,11 @@ Price:
 
 Price Histogram: 
 
-![Price Histogram] (https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Distribution%20of%20Home%20Prices.png)
+![Price Histogram](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Distribution%20of%20Home%20Prices.png)
 
 Price Boxplot Distribution by Property Type: 
 
-![Price Boxplot] (https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Price%20by%20Property%20Type.png)
+![Price Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Price%20by%20Property%20Type.png)
 
 
 
