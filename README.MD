@@ -9,7 +9,7 @@ The Data was manually collected on November 31st, 2023 from the Redfin Website. 
 #### Initial Findings
 Disclaimer: the following section includes data only on properties qualifying for analysis and excludes some property types and descriptionless listings
 
-Price: 
+######Price: 
 
 - Prices in the Dataset range from $202,500 - $11,620,000. 
 - The Mean Home Price in the Set is $958K
@@ -24,7 +24,7 @@ Price Boxplot Distribution by Property Type:
 
 ![Price Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Price%20by%20Property%20Type.png)
 
-Square Footage: 
+######Square Footage: 
 
 - Square Footages in the Dataset range from 268SF - 11,573 SF
 - The Mean Home Square Footage in the Set is 1,729 SF
