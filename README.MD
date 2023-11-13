@@ -134,21 +134,19 @@ Performance Metrics
 
 - The Median Absolute Percentage Error for this Model is Approximately 7.02%
 
+  XGBoost Regressor Predicted vs. Actual Values:
 
-Top 20 Feature Importances 
+  ![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png)
 
-![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png)
+  XBBoost Regressor Residuals vs. Actual Values:
 
- Honestly, not much can be deduced from this. Will attempt all grid searches and models on Bigrams tonight to see if changes model performance/interpretability.
+  ![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
 
+  Top 20 Feature Importances 
 
-XBBoost Regressor Predicted vs. Actual Values:
+  ![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png)
 
-![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png)
-
-XBBoost Regressor Residuals vs. Actual Values:
-
-![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
+   Honestly, not much can be deduced from this. Will attempt all grid searches and models on Bigrams tonight to see if changes model performance/interpretability.
 
 
 
