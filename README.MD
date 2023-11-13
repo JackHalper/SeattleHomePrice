@@ -57,11 +57,27 @@ Decision Tree Regressor Residuals vs. Actual Values:
 ###### Model #2: Random Forest (Hyperparameters Tuned)
 - The 2nd model was produced through an exhaustive cross-validation gridsearch. The Hyperparameters tuned include: Number of Estimators, Max Tree Depth, Minimum Sample Split, Minimum Samples Per Leaf. The best model from the CV search utilized the following final hyperparameters: No Max Depth, Minimum Sample Split of 2, Minimum Sample Per Leaf of 1, and 500 total trees in the ensemble model. This ensemble model acheived an R2 of approximately .82. The Mean Absolute Error acheived was approximately 137k$. The Mean Absolute Percentage Error is approximately 14.35%.
 
+Random Forest Regressor Predicted vs. Actual Values:
+
+![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Act.%20Vs.%20Predicted.png)
+
+Random Forest Regressor Residuals vs. Actual Values:
+
+![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
+
+
+
 ###### Model #3: XGBoost Regressor (Hyperparameters Tuned) (BEST MODEL)
 - The 3rd model was produced through an exhaustive cross-validation gridsearch. The Hyperparameters tuned include: Sample of Features per Tree, Learning Rate, Max Depth, Minimum Child Weight, Number of Estimators, Proportion of Samples per estimator. The best model from the CV search utilized the following final hyperparameters: .8 Proportion of Samples of Features Per Tree, Max Depth of 10, Minimum Child Weight of 4, and 500 total estimators in the ensemble model, .6 Proportion of samples of Features Per Tree. This ensemble model acheived an R2 of approximately .88. The Mean Absolute Error acheived was approximately 111k$. The Mean Absolute Percentage Error for this model is approximately 11.64%.
 
 
-### 
+XBBoost Regressor Predicted vs. Actual Values:
+
+![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png)
+
+XBBoost Regressor Residuals vs. Actual Values:
+
+![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
 
 
 
