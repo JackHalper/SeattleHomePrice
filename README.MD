@@ -119,15 +119,32 @@ Decision Tree Regressor Residuals vs. Actual Values:
 
 
 #### Model #2: Random Forest (Hyperparameters Tuned)
-- The 2nd model was produced through an exhaustive cross-validation gridsearch. The Hyperparameters tuned include: Number of Estimators, Max Tree Depth, Minimum Sample Split, Minimum Samples Per Leaf. The best model from the CV search utilized the following final hyperparameters: No Max Depth, Minimum Sample Split of 2, Minimum Sample Per Leaf of 1, and 500 total trees in the ensemble model. This ensemble model acheived an R2 of approximately .82. The Mean Absolute Error acheived was approximately 137k$. The Mean Absolute Percentage Error is approximately 14.35%.
+- The 2nd model was produced through an exhaustive cross-validation gridsearch. 
+- Final Hyperparameters:
+  - Min_Samples_Leaf: 1
+  - Max-Depth: None
+  - Min_Samples_Split: 2  
+  - n_estimators: 300
+
+Performance Metrics 
+- This ensemble model acheived an R2 of approximately .81
+
+- The Mean Absolute Error acheived was approximately $139K
+
+- The Mean Absolute Percentage Error for this model is approximately 14.46%. 
+
+- The Median Absolute Percentage Error for this Model is Approximately 9.18%
+
+
+
 
 Random Forest Regressor Predicted vs. Actual Values:
 
-![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Act.%20Vs.%20Predicted.png)
+![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Act.%20Vs.%20Predicted.png) (Need to Replace 11/14)
 
 Random Forest Regressor Residuals vs. Actual Values:
 
-![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
+![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to replace 11/14)
 
 
 
@@ -141,25 +158,25 @@ Random Forest Regressor Residuals vs. Actual Values:
   - .6 Proportion of samples of Features Per Tree. 
 
 Performance Metrics 
-- This ensemble model acheived an R2 of approximately .88. 
+- This ensemble model acheived an R2 of approximately .87 
 
-- The Mean Absolute Error acheived was approximately 111k$. 
+- The Mean Absolute Error acheived was approximately 119k$
 
-- The Mean Absolute Percentage Error for this model is approximately 11.64%. 
+- The Mean Absolute Percentage Error for this model is approximately 12.64%. 
 
-- The Median Absolute Percentage Error for this Model is Approximately 7.02%
+- The Median Absolute Percentage Error for this Model is Approximately 8.19%
 
   XGBoost Regressor Predicted vs. Actual Values:
 
-  ![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png)
+  ![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png) (Need to Replace 11/14)
 
   XBBoost Regressor Residuals vs. Actual Values:
 
-  ![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
+  ![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to Replace 11/14)
 
   Top 20 Feature Importances 
 
-  ![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png)
+  ![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
 
    Honestly, not much can be deduced from this. Will attempt all grid searches and models on Bigrams tonight to see if changes model performance/interpretability.
 
@@ -169,6 +186,6 @@ Performance Metrics
 
 Zestimate (Seattle Metro) Median Absolute Error Percentage: 2.11%
 
-Best Model Median Absolute Error Percentage: 7.02% 
+Best Model Median Absolute Error Percentage: 8.19% 
 
 
