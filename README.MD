@@ -74,6 +74,19 @@ Square Footage Boxplot Distribution by Property Type:
 
 #### Age
 
+- Home Ages in the Dataset range from 0 - 133 years old
+- The Mean Home Square Footage in the Set is 49 years of age
+- The Median Home Square Footage in the Set is 44 years of age
+- The Dataset is skewed to the right
+
+Age Histogram: 
+
+![Age Histogram](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Distribution%20of%20Home%20Ages.png)
+
+Age Boxplot Distribution by Property Type: 
+
+![SqFt. Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Age%20by%20Property%20Type.png)
+
 
 
 ## The Approach 
