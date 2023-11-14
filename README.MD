@@ -107,7 +107,19 @@ Median Absolute Error Percentage & Mean Absolute Error Percentage
 
 #### Model #1: Decision Tree (No Hyperparameter Tuning) 
 - The 1st model was a simple decision tree with no hyperparameter tuning just to provide a baseline model on which to evaluate future models.
-This simple model acheived an R2 of approximately .65. The Mean Absolute Error acheived was approximately 183k$. The Mean Absolute Percentage Error is approximately 18.5%. 
+
+Performance Metrics 
+- This ensemble model acheived an R2 of approximately .68
+
+- The Mean Absolute Error acheived was approximately $179K
+
+- The Mean Absolute Percentage Error for this model is approximately 17.94% 
+
+- The Median Absolute Percentage Error for this Model is Approximately 11.70%
+
+
+
+
 
 Decision Tree Regressor Predicted vs. Actual Values:
 
