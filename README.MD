@@ -99,7 +99,9 @@ The approach taken, in this project, is basically, to combine traditional housin
 
 Median Absolute Error Percentage & Mean Absolute Error Percentage 
 
-- Why???
+- Median Absolute Error Percentage was selected as a primary metric due to it's preminence as the industry standard for evaluating home price models. Redfin Home Estimate and Zestimate pubilily assess their models with the median absolute error percentage. The percentage also provides easy interpretability and comparability across markets. An identical median absolute error would mean very different levels of accuracy if you were evaluating model performance in Huntsville, Alabama vis a vis Manhattan, NY. Therefore, a percentage metric allows for easy comprability of models in different housing markets context. 
+
+- Mean Absolute error was selected as a secondary metric to ensure the model is not missing outliers by a huge margin 
 
 ## The Models 
 
