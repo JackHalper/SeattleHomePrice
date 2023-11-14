@@ -84,7 +84,7 @@ The approach taken, in this project, is basically, to combine traditional housin
 
 ## The Metric 
 
-Mean Absolute Error & Mean Absolute Error Percentage 
+Median Absolute Error Percentage & Mean Absolute Error Percentage 
 
 - Why???
 
