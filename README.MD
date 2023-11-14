@@ -178,7 +178,7 @@ Performance Metrics
 
   ![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
 
-   Honestly, not much can be deduced from this. Will attempt all grid searches and models on Bigrams tonight to see if changes model performance/interpretability.
+Feature Importance Evaluation
 
 
 
