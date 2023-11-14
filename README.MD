@@ -20,7 +20,7 @@ On-market data such as listing price, description, comparable homes in the area 
 Off-market data — tax assessments, prior sales and other publicly available records
 Market trends, including seasonal changes in demand"
 
-The Zestimate is a sophisticated Neural Network with access to unprecedented data on homes across the U.S. The Zestimate model incorporates 110,000,000 homes from across the United States. I will be evaluating my performance utilizing Zillow's performance with on-market listings and there eventual sales price. Given that this model requires descriptions to give predictions, this project will be evaluated on on-market listings as well. 
+The Zestimate is a sophisticated Neural Network with access to unprecedented data on homes across the U.S. The Zestimate model incorporates 110,000,000 homes from across the United States. I will be evaluating my performance utilizing Zillow's performance with on-market listings and there eventual sales price. Given that this model requires descriptions to give predictions, this project will be evaluated on on-market listings as well. More on the Zestimate can be found [here](https://www.zillow.com/#/)
 
 ## The Metrics
 
@@ -155,4 +155,5 @@ Performance Metrics
 Zestimate (Seattle Metro) Median Absolute Error Percentage: 2.11%
 
 Best Model Median Absolute Error Percentage: 7.02% 
+
 
