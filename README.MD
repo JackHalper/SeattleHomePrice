@@ -9,7 +9,7 @@ The aims of this project are two-fold; the first objective is to formulate as ac
 
 ## The Business Problem
 This project aims to empower small-time value-add real estate investors in the city of Seattle. It attempts to do this in two distinct ways: 
-1. It aims to provide an accurate appraisal model for homes based on there redfin listing information. 
+1. It aims to provide an accurate appraisal model for homes based on their redfin listing information. 
 2. It aims to provide information about what specific features cause some homes to sell for more so investors can have data-driven information through which to make value-add investment decisions.
 
 ## The Competition
