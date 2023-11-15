@@ -201,3 +201,20 @@ Zestimate (Seattle Metro) Median Absolute Error Percentage: 2.11%
 Best Model Median Absolute Error Percentage: 8.19% 
 
 
+
+### Overall Conclusion:
+- The XGBoost Hyper-parameter tuned model performed the best while still providing some level of interpretability, whereas, the stacked regressor performed similarly provides no model intepretability
+- The Project best model, as expected, significantly underperformed industry standard models with access to much larger reservoirs of information as well as historic pricing and 100's of millions of sales.
+- The Project best model acheived a median absolute error percentage of 8.19% 
+- Zillow's Zestimate, on the other hand, acheives significantly better performance of 2.11% in the Seattle Metro. 
+
+
+
+
+### Next Steps and Possible Improvements
+- A larger dataset, including more historic sales, would likely have increased the project best model performance.
+- Additionally, Scraping additional features (eg. Garage Size, Finishings) from the Redfin website may have provided more numeric and categorical features to improve model performance.
+- Topic Modeling, Such as Latent Dichlemet Analysis, could provide more salient NLP features and improved model performance.
+- Expirimenting with NLP methods beyond a simple bigram Bag-of-Words approach might yield more precise predictions.
+
+
