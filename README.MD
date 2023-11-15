@@ -34,8 +34,15 @@ Zillow's Median Absolute Percentage Error in the Seattle Metro Area is approxima
 The Data was manually collected on November 31st, 2023 from the [Redfin](https://www.redfin.com/) Website. The redfin website provides an option to manually download CSV files with basic information about the property sale. Data were collected from all zip codes encompassing or partially encompassing the City of Seattle. Properties, not in the City of Seattle, were filtered out later in the analysis. Property information included in the download include: Beds, Baths, Price, Sale Date, Lot Size, Square Footage, Submarket Location, Longitude, Latitude, Sale Type, Year Built, Zipcode and More. The data cover the entirety of the city of Seattle and encompass all homesales registered on the website from the 12 months preceding the collection date. The homesales data is comprised of a variety of product types including; Single Family Detached Homes, Townhomes, Condos/Co-Ops, Multi-Family Properties, Vacant Land, Mobile Homes, Etc. For the purposes of this model and analysis, however, only SFD, TH's and Condos have been included due to other property types' relative infrequency in the Seattle City market. The data directly sourced from Redfin, however, lacked realtor descriptions. Therefore, the data collection process for this analysis included a [custom webscraping script](https://github.com/JackHalper/SeattleHomePrice/blob/main/WebScraper.ipynb) to pull descriptions from each properties unique redfin page. While the majority of homes sold in the City are listed on Redfin and include descriptions, some are not, and Redfin sources these description-less sales through MLS (Multiple Listing System). Properties that lacked descriptions were excluded for the purposes of the analysis and model. The data encompasses 6,308 Sales over the past 12 months in the City of Seattle. The Combined Final Redin Data used for the analysis and modeling can be found [here](https://github.com/JackHalper/SeattleHomePrice/blob/main/Redfin%20Data/Redfin_Combined.csv).
 
 
+## The Approach
+
+
+
 ## Requirements
 The Required Packages to run and reproduce this code can be found in [Requirements.txt](https://github.com/JackHalper/SeattleHomePrice/blob/main/Requirements.txt)
+
+
+## How to run the Model on your own Redfin Data
 
 
 ## Initial Findings
@@ -186,12 +193,51 @@ Performance Metrics
 
   ![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to Replace 11/14)
 
-  Top 20 Feature Importances 
+
+#### Model #4: Support Vector Regressor
+- The 4th model was produced through an exhaustive cross-validation gridsearch. 
+- Final Hyperparameters:
+  - C: 1000 (Low Regularization)
+  - Gamma: 4
+  - Epsilon: Scale
+  - Kernal: Linear
+
+Random Forest Regressor Predicted vs. Actual Values:
+
+![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Act.%20Vs.%20Predicted.png) (Need to Replace 11/14)
+
+Random Forest Regressor Residuals vs. Actual Values:
+
+![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to replace 11/14)
+
+
+
+
+  
+### Best-Model Feature Importances 
 
   ![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
 
-Feature Importance Evaluation
-
+ Feature Importance Evaluation
+- Relevent Home Features: 
+    - Walk-in-Pantry
+    - Bonus Room 
+    - Storage
+    - Attached Garage
+    - Mountains
+    - Vaulted Ceilings
+    - Adjacent to Restaurants & Shopping
+    - Courtyard
+- Most Relevent Home Variables
+    - Bedrooms
+    - Sale Type
+    - Sold Date
+    - Zipcode/Postal Code
+    - Beds 
+    - Year of Sale
+    
+- Conclusion: 
+    - The utility of XGBoost feature importances is limited insofar as there is limited intepretability to how each feature specifically contributes to the target price variable. Certainly, we understand they are important to the prediction. However, it's less clear how they impact the target price variable. Therefore, these are important features but they must be contextualized with domain knowledge to provide real value
 
 
 ### Best Model - Comparison to Industry Benchmark
