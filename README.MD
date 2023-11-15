@@ -210,14 +210,10 @@ Random Forest Regressor Residuals vs. Actual Values:
 
 ![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to replace 11/14)
 
-### Best-Model Feature Importances 
+#
 
+## Best-Model Feature Importances 
 
-
-![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
-
-
-###### Feature Importance Evaluation
 - Relevent Home Features: 
     - Walk-in-Pantry
     - Bonus Room 
@@ -238,6 +234,10 @@ Random Forest Regressor Residuals vs. Actual Values:
 - Conclusion: 
     - The utility of XGBoost feature importances is limited insofar as there is limited intepretability to how each feature specifically contributes to the target price variable. Certainly, we understand they are important to the prediction. However, it's less clear how they impact the target price variable. Therefore, these are important features but they must be contextualized with domain knowledge to provide real value
 
+
+Top 30 Feature Importances
+
+![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
 
 ### Best Model - Comparison to Industry Benchmark
 
