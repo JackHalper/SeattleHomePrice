@@ -210,15 +210,14 @@ Random Forest Regressor Residuals vs. Actual Values:
 
 ![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to replace 11/14)
 
-
-
-
-  
 ### Best-Model Feature Importances 
 
-  ![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
 
- Feature Importance Evaluation
+
+![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
+
+
+###### Feature Importance Evaluation
 - Relevent Home Features: 
     - Walk-in-Pantry
     - Bonus Room 
