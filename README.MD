@@ -64,7 +64,7 @@ Th
     
 
 
-## Initial Findings
+## Exploratory Data Analysis
 Disclaimer: the following section includes data only on properties qualifying for analysis and excludes some property types and descriptionless listings
 
 #### Price: 
@@ -130,6 +130,21 @@ Bed Boxplot Distribution by Property Type:
 ![Bed Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Beds%20by%20Property%20Type.png)
 
 
+#### Baths
+
+- Number of Beds in the Dataset range from 0 - 7 Bathrooms
+- The Mean Home in the Set has 2.12 Bathrooms
+- The Median Home in the Set has 2 Bathrooms
+- The Dataset is skewed slightly to right 
+
+
+Bath Histogram: 
+
+![Bath Histogram](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Distribution%20of%20Property%20Baths.png)
+
+Bath Boxplot Distribution by Property Type: 
+
+![Bath Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Baths%20by%20Property%20Type.png)
 
 
 ## The Approach 
