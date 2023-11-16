@@ -315,7 +315,7 @@ Stacking Regressor Residuals vs. Actual Values:
 
 Top 30 Feature Importances
 
-![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2020%20Feature%20Importances.png) (Need to Replace 11/14)
+![Feature Importances](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2030%20Feature%20Importances%20-%20Bigrams.png)
 
 ### Best Model - Comparison to Industry Benchmark
 
