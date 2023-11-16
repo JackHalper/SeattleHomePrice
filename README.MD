@@ -152,7 +152,7 @@ Natural Language Processing: Most Common Bigrams and Unigrams
 
 The approach taken, in this project, is basically to combine traditional housing features and NLP Bag-of-Words into ensemble regressors to acheive the most accurate result possible. The traditional numeric and categorical housing features were fed into a pipeline that either applied a Standard Scaler or One-Hot Encoding to prepare them for the regression models. The Description's were preprocessed, lemmatized and count vectorized into a simple bag of words array and fed into the model. 
 
-![Approach Flowchart](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Approach%20FlowChart.png)
+![Approach Flowchart](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Unigrams%20WordCloud%20Final.png)
 
 ## The Metric 
 
