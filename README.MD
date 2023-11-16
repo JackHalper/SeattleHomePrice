@@ -151,11 +151,11 @@ Performance Metrics
 
 Decision Tree Regressor Predicted vs. Actual Values:
 
-![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20DTC.png)
+![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/AVP%20DTC.png)
 
 Decision Tree Regressor Residuals vs. Actual Values:
 
-![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Residuals%20DTC.png)
+![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RESIDUAL%20DTR.png)
 
 
 #### Model #2: Random Forest (Hyperparameters Tuned)
@@ -180,11 +180,11 @@ Performance Metrics
 
 Random Forest Regressor Predicted vs. Actual Values:
 
-![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Act.%20Vs.%20Predicted.png) (Need to Replace 11/14)
+![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/AVP%20RFR.png)
 
 Random Forest Regressor Residuals vs. Actual Values:
 
-![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to replace 11/14)
+![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png)
 
 
 
@@ -208,11 +208,11 @@ Performance Metrics
 
   XGBoost Regressor Predicted vs. Actual Values:
 
-  ![Decision Tree Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Act.%20Vs.%20Predicted%20XGB.png) (Need to Replace 11/14)
+  ![XGBoost Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/AVP%20XGB.png)
 
   XBBoost Regressor Residuals vs. Actual Values:
 
-  ![Decision Tree Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to Replace 11/14)
+  ![XGBoost Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Residuals%20%20XGB.png)
 
 
 #### Model #4: Support Vector Regressor
@@ -223,15 +223,39 @@ Performance Metrics
   - Epsilon: Scale
   - Kernal: Linear
 
-Random Forest Regressor Predicted vs. Actual Values:
+Support Vector Regressor Predicted vs. Actual Values:
 
-![Random Forest Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Act.%20Vs.%20Predicted.png) (Need to Replace 11/14)
+![Support Vector Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/AVP%20Stacked.png)
 
-Random Forest Regressor Residuals vs. Actual Values:
+Support Vector Regressor Residuals vs. Actual Values:
 
-![Random Forest Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/RFR%20Residuals.png) (Need to replace 11/14)
+![Support Vector Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Residuals%20SVR.png)
 
-#
+
+#### Model #5: Stacking Regressor
+
+- The 5th model was produced through a stacked regressor combining the following models: 
+- The Best Random Forest Regressor
+- The Best XGBoost Regressor 
+- The Meta Model is a Linear Regression Model
+
+
+Performance Metrics 
+- The Stacking Regressor Model performs in-line with the hyperparameter tuned XGBoost model.
+- With a mean absolute error of 118k, it represents a slight but negligible improvement over the XGBoost
+- The model has a mean absolute error percentage of just 12.55%, representing a miniscule improvement from the XBoost Regressor
+- The model has a median absolute error percentage of just 8.25%, representing a miniscule regression from the XGBoost Regressor
+- The Stacking Regressor, though performing in line with the XGBoost model, sacrifices model interpretability and therefore the XGBoost Regressor 
+is selected as the superior model among all permutations tested.
+
+Stacking Regressor Predicted vs. Actual Values:
+
+![Stacking Regressor Predicted vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/AVP%20Stacked.png)
+
+Stacking Regressor Residuals vs. Actual Values:
+
+![Stacking Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Residuals%20Stakced.png)
+
 
 ## Best-Model Feature Importances 
 
