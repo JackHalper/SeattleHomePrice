@@ -59,7 +59,11 @@ Th
   - Zipcode
   - Beds
   - Baths
-   -
+  - Location (This will be the nearest neighborhood on Google Maps; If there is an error try the nearest adjacent neighborhood; Remember to capitalize the location name)
+  - Square Feet
+  - Lot Size (in Sq. Ft.; 1 Acre = 43,560 Sq. Ft.)
+  - Copy and Paste the Description
+  - Enter the Listing Price for Comparison to the Prediction Output
     
 
 
