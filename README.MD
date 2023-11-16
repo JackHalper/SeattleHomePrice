@@ -40,11 +40,11 @@ The Required Packages to run and reproduce this code can be found in [Requiremen
 
 ## How to run the Model on any Seattle Redfin Listing
 
-Unfortunately, Data cannot be pulled on active listings in the same manner as sold properties. This is due to local regulations regarding Multiple Listing Systems (MLS) in the Seattle Area. Therefore, information about each property must be manually inputted into the tool. 
+Unfortunately, Data cannot be pulled on active listings in the same manner as sold properties. This is due to local regulations regarding Multiple Listing Systems (MLS) in the Seattle Area. Therefore, information about each property must be manually inputted into the tool. This tool runs off the best model(XGBRegressor) and the pickled model can be found [here.](https://github.com/JackHalper/SeattleHomePrice/blob/main/Pickled%20Models/XGBPipeline.pkl)
 
 #### Instructions:
 
-- Open [Redfin Housing Price Predictor Tool ](https://github.com/JackHalper/SeattleHomePrice/blob/main/Redfin%20Housing%20Price%20Predictor.ipynb)
+- Open [Redfin Housing Price Predictor Tool](https://github.com/JackHalper/SeattleHomePrice/blob/main/Redfin%20Housing%20Price%20Predictor.ipynb)
 - Navigate to Tool Bar and Select Cell
 - Click Run All 
 - You will be prompted to input basic information about the property
@@ -290,7 +290,7 @@ Stacking Regressor Residuals vs. Actual Values:
 ![Stacking Regressor Residuals vs. Actual Values](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Residuals%20Stakced.png)
 
 
-## Best-Model Feature Importances 
+## Best-Model (XGBRegressor) Feature Importances 
 
 - Relevent Home Features: 
     - Walk-in-Pantry
