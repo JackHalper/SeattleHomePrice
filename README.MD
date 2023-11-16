@@ -25,14 +25,6 @@ Market trends, including seasonal changes in demand"
 
 The Zestimate is a sophisticated Neural Network with access to unprecedented data on homes across the U.S. The Zestimate model incorporates 110,000,000 homes from across the United States. I will be evaluating my performance utilizing Zillow's performance with on-market listings and there eventual sales price. Given that this model requires descriptions to give predictions, this project will be evaluated on on-market listings as well. More on the Zestimate can be found [here](https://www.zillow.com/#/)
 
-## The Metrics
-
-Redfin and Zillow use the industry standard, Median Absolute Percentage Error (MEDAPE), to evaluate their respective pricing models: Zestimate and Redfin House Price Estimate. Given, MEDAPE's prominence as the Industry Standard barometer of performance, this project will primarily utilize this metric to evaluate model performance. 
-
-Mean Absolute Precentange Error (MAPE) will be used as a secondary metric, because it's important to evaluate the model's performance in the context of mean to ensure it's not consistenly missing large outliers in the set. 
-
-Zillow's Median Absolute Percentage Error in the Seattle Metro Area is approximately: 2.11%
-
 ## The Data 
 The Data was manually collected on November 31st, 2023 from the [Redfin](https://www.redfin.com/) Website. The redfin website provides an option to manually download CSV files with basic information about the property sale. Data were collected from all zip codes encompassing or partially encompassing the City of Seattle. Properties, not in the City of Seattle, were filtered out later in the analysis. Property information included in the download include: Beds, Baths, Price, Sale Date, Lot Size, Square Footage, Submarket Location, Longitude, Latitude, Sale Type, Year Built, Zipcode and More. The data cover the entirety of the city of Seattle and encompass all homesales registered on the website from the 12 months preceding the collection date. The homesales data is comprised of a variety of product types including; Single Family Detached Homes, Townhomes, Condos/Co-Ops, Multi-Family Properties, Vacant Land, Mobile Homes, Etc. For the purposes of this model and analysis, however, only SFD, TH's and Condos have been included due to other property types' relative infrequency in the Seattle City market. The data directly sourced from Redfin, however, lacked realtor descriptions. Therefore, the data collection process for this analysis included a [custom webscraping script](https://github.com/JackHalper/SeattleHomePrice/blob/main/WebScraper.ipynb) to pull descriptions from each properties unique redfin page. While the majority of homes sold in the City are listed on Redfin and include descriptions, some are not, and Redfin sources these description-less sales through MLS (Multiple Listing System). Properties that lacked descriptions were excluded for the purposes of the analysis and model. The data encompasses 6,308 Sales over the past 12 months in the City of Seattle. The Combined Final Redin Data used for the analysis and modeling can be found [here](https://github.com/JackHalper/SeattleHomePrice/blob/main/Redfin%20Data/Redfin_Combined.csv).
 
@@ -156,8 +148,6 @@ Bath Boxplot Distribution by Property Type:
 The approach taken, in this project, is basically to combine traditional housing features and NLP Bag-of-Words into ensemble regressors to acheive the most accurate result possible. The traditional numeric and categorical housing features were fed into a pipeline that either applied a Standard Scaler or One-Hot Encoding to prepare them for the regression models. The Description's were preprocessed, lemmatized and count vectorized into a simple bag of words array and fed into the model. 
 
 ![Approach Flowchart](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Approach%20FlowChart.png)
-
-
 
 ## The Metric 
 
