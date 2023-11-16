@@ -113,6 +113,23 @@ Age Boxplot Distribution by Property Type:
 
 ![SqFt. Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Age%20by%20Property%20Type.png)
 
+#### Beds 
+
+- Number of Beds in the Dataset range from 0 - 8 Bedrooms
+- The Mean Home in the Set has 2.8 Bedrooms
+- The Median Home in the Set has 3 Bedrooms
+- The Dataset is skewed slightly to left 
+
+
+Bed Histogram: 
+
+![Bed Histogram](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Beds%20Distribution.png)
+
+Bed Boxplot Distribution by Property Type: 
+
+![Bed Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Beds%20by%20Property%20Type.png)
+
+
 
 
 ## The Approach 
