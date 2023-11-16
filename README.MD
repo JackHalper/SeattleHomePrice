@@ -64,6 +64,7 @@ Th
   - Lot Size (in Sq. Ft.; 1 Acre = 43,560 Sq. Ft.)
   - Copy and Paste the Description
   - Enter the Listing Price for Comparison to the Prediction Output
+  - Finally scroll to the bottom of the notebook to see the results!
     
 
 
