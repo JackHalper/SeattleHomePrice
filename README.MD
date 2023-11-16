@@ -5,7 +5,7 @@
 # Redfin Real Estate Price Regressor for The City of Seattle
 
 ## Summary 
-This model utilizes a two pronged approach; leveraging NLP on realtor descriptions with traditional housing appraisal features, and endeavors to provide independent real-estate investors and homeflippers in the City of Seattle with an accurate appraisal model while providing insight about which features are important in determining price in the Seattle market.
+This model utilizes a two pronged approach; leveraging NLP on realtor descriptions with traditional housing appraisal features, and endeavors to provide independent real-estate investors and homeflippers in the City of Seattle with an accurate appraisal model while providing insight about which features are important in determining price in the Seattle market. The non-technical presentation can be found [here.](https://github.com/JackHalper/SeattleHomePrice/blob/main/Non-Technical%20Presentation.pdf)
 
 ## The Objective 
 The aims of this project are two-fold; the first objective is to formulate as accurate of a housing price model as is feasible for the City of Seattle. The second is to leverage model-interpretability to deduce the features that predict housing values in the city market. Additionally, a secondary goal of this project is to utilize realtor descriptions and natural language processing to augment the performance of the housing model. 
