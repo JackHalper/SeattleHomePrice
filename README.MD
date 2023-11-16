@@ -143,7 +143,7 @@ Bath Boxplot Distribution by Property Type:
 ![Bath Boxplot](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Baths%20by%20Property%20Type.png)
 
 
-Natural Language Processing: Most Common Bigrams and Unigrams
+#### Natural Language Processing: Most Common Bigrams and Unigrams
 
 ![NLP Wordcloud](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Unigrams%20WordCloud%20Final.png)
 
