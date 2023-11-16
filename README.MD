@@ -42,7 +42,25 @@ The Data was manually collected on November 31st, 2023 from the [Redfin](https:/
 The Required Packages to run and reproduce this code can be found in [Requirements.txt](https://github.com/JackHalper/SeattleHomePrice/blob/main/Requirements.txt)
 
 
-## How to run the Model on your own Redfin Data
+## How to run the Model on any Seattle Redfin Listing
+
+Unfortunately, Data cannot be pulled on active listings in the same manner as sold properties. This is due to local regulations regarding Multiple Listing Systems (MLS) in the Seattle Area. Therefore, information about each property must be manually inputted into the tool. 
+Th
+
+- Open [Redfin Housing Price Predictor Tool ](https://github.com/JackHalper/SeattleHomePrice/blob/main/Redfin%20Housing%20Price%20Predictor.ipynb)
+- Navigate to Tool Bar and Select Cell
+- Click Run All 
+- You will be prompted to input basic information about the property
+  - Year Built
+  - Property Type of which there are three options: (Case Sensitive)
+    - Single Family Residential
+    - Townhouse
+    - Condo/Co-op
+  - Zipcode
+  - Beds
+  - Baths
+   -
+    
 
 
 ## Initial Findings
