@@ -145,14 +145,14 @@ Bath Boxplot Distribution by Property Type:
 
 Natural Language Processing: Most Common Bigrams and Unigrams
 
-![NLP Wordcloud](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2030%20Feature%20Importances%20-%20Bigrams.png)
+![NLP Wordcloud](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Unigrams%20WordCloud%20Final.png)
 
 
 ## The Approach 
 
-The approach taken, in this project, is basically to combine traditional housing features and NLP Bag-of-Words into ensemble regressors to acheive the most accurate result possible. The traditional numeric and categorical housing features were fed into a pipeline that either applied a Standard Scaler or One-Hot Encoding to prepare them for the regression models. The Description's were preprocessed, lemmatized and count vectorized into a simple bag of words array and fed into the model. 
+The approach taken, in this project, is basically to combine traditional housing features and NLP Bag-of-Words into ensemble regressors to acheive the most accurate result possible. The traditional numeric and categorical housing features were fed into a pipeline that either applied a Standard Scaler or One-Hot Encoding to prepare them for the regression models. The Description's were preprocessed, lemmatized, processed into a probable bigrams model and then vectorized into a simple bag of words array and fed into the model. 
 
-![Approach Flowchart](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Unigrams%20WordCloud%20Final.png)
+![Approach Flowchart](https://github.com/JackHalper/SeattleHomePrice/blob/main/Photos/Top%2030%20Feature%20Importances%20-%20Bigrams.png)
 
 ## The Metric 
 
