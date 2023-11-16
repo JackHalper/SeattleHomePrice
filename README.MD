@@ -42,7 +42,7 @@ The Required Packages to run and reproduce this code can be found in [Requiremen
 
 Unfortunately, Data cannot be pulled on active listings in the same manner as sold properties. This is due to local regulations regarding Multiple Listing Systems (MLS) in the Seattle Area. Therefore, information about each property must be manually inputted into the tool. 
 
-####Instructions:
+#### Instructions:
 
 - Open [Redfin Housing Price Predictor Tool ](https://github.com/JackHalper/SeattleHomePrice/blob/main/Redfin%20Housing%20Price%20Predictor.ipynb)
 - Navigate to Tool Bar and Select Cell
